@@ -8,12 +8,14 @@
 .logo-left{
 width:200px;
   float:right;
+  padding-top: 12px
 }
 .clearfix{
   clear:both;
 }
 .icon{
-  width:30px;
+  width:50px;
+
 }
 body{
   font-family: 'lato', sans-serif;
@@ -42,6 +44,7 @@ text-decoration: none;
 .form{
   width: 500px;
   margin: 0 auto;
+
 }
 .form h2{
   text-align: center;
@@ -70,15 +73,30 @@ width: 100%;
 }
 
 .form input{
-  height: 40px;
+  height: 30px;
 }
 button{
   margin-left:auto;
   margin-right:auto;
   display:block;
+  margin-bottom: 10px
 }
-footer
-{
-  background-color: black;
-  
+.divide{
+  display: inline-block;
+  width: 51%;
+  padding-left: 15px;
+  white-space: normal;
+}
+footer{
+  background: black;
+  padding: 10px
+}
+
+
+.language_div{
+  padding-left: 0px;
+
+}
+form{
+  white-space: nowrap;
 }
