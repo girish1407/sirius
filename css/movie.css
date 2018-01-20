@@ -18,8 +18,8 @@ width:200px;
 
 }
 body{
-  font-family: 'lato', sans-serif;
   background-color: #442D4B;
+  font-family: 'lato', sans-serif;
   color: white;
   align-content: center;
 }
@@ -99,4 +99,120 @@ footer{
 }
 form{
   white-space: nowrap;
+}
+
+.film{
+  width: 150px;
+  height: 200px;
+  margin-top:10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+
+}
+.star{
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+
+  display:inline-block;
+
+}
+
+.stars{
+  width: 10px;
+  height: 10px;
+  display:inline-block;
+
+
+}
+
+.movie-lan{
+
+  margin: 10px;
+}
+.movie-nam{
+  margin: 10px;
+}
+.movie-yr{
+  font-size: 12px;
+  padding-top: 10px;
+  margin: 10px;
+  text-decoration: inherit;
+  font-weight: bold;
+}
+.new{
+display: grid;
+}
+
+
+
+/*HOME PAGE*/
+section{
+    padding: 0 40px;
+    padding-bottom: 84px;
+}
+.category{
+    margin-bottom: 40px;
+}
+.categoryName {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.movie {
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.movie .poster {
+    width: 180px;
+    height: 230px;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    margin-bottom: 15px;
+}
+
+.poster img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.details {
+    width: 180px;
+    /* margin: 0 auto; */
+}
+.details .yearOfRelease {
+    margin: 5px 0;
+    font-size: 0.8rem;
+}
+
+.details .name{
+    margin: 5px 0;
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.stars .star {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+}
+
+.star-full {
+    background-image: url("../images/star-full.png");
+}
+
+.star-half {
+    background-image: url("../images/star-half.png");
+}
+
+.star-empty {
+    background-image: url("../images/star-empty.png");
 }
