@@ -1,0 +1,238 @@
+
+.logo{
+	height: 40px;
+	width: 300px;
+
+}
+.fright{
+	float: right;
+}
+.fleft{
+	float: left;
+}
+
+.icon{
+width:50px;
+height: 50px;
+margin: 10px;
+
+}
+.clearfix{
+	clear:both;
+}
+
+.icon-list{
+
+
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	background:#442D4B;
+	color: white;
+
+
+
+}
+
+header{
+	padding: 40px;
+	height:40px;
+
+}
+
+header ul li {
+	display: inline-block;
+	padding: 10px 15px;
+
+}
+
+header ul li a{
+	text-decoration: none;
+	font-size: :13px;
+	color:#ffcb59;
+}
+
+footer{
+	padding: 40px;
+	height:40px;
+	background: black;
+	margin-top: 20px;
+
+
+}
+form{
+	white-space: nowrap;
+}
+.movie-form{
+	width:500px;
+	margin:0 auto;
+}
+
+.movie-form h2{
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.movie-form label,.movie-form input{
+	display: block;
+}
+
+.movie-form input,.movie-form textarea,.movie-form select{
+	width: 100%;
+	background: #442D4B;
+	border: 1px solid white;
+	margin:7px 0 15px;
+	color:white;
+	padding: 0 5px;
+	font-size: 19px;
+	font-family: inherit;
+}
+
+.movie-form input{
+	height: 40px;
+}
+
+.divide{
+display:inline-block;
+width:50%;
+white-space: normal;
+padding-left:10px;
+
+
+}
+
+.language-div{
+padding-left: 0;
+
+}
+
+Button{
+
+	background:#ffcb59;
+	color:white;
+	width:150px;
+	height:50px;
+	font-size: 20px;
+	display: block;
+	margin:0 auto;
+}
+
+h2{
+	color:white;
+	font-size: 40px;
+}
+
+.card{
+	display: inline-block;
+
+	width: 25%;
+	white-space: normal;
+}
+.rating{
+	display: inline-block;
+}
+
+.list{
+	white-space: nowrap;
+	margin: 50px 0;
+}
+
+.movie-poster-img{
+	width: 250px;
+	height: 350px;
+}
+.star-img{
+	width: 40px;
+	height: 40px;
+}
+
+.main-li{
+	margin-left:80px;
+	margin-right:80px;
+	margin-top:40px;
+}
+.movie-name{
+	font-weight: bold;
+	font-size: 20px;
+}
+.new-lang{
+	margin-top: 40px;
+}
+
+
+
+/* copied */
+section{
+    padding: 0 40px;
+    padding-bottom: 84px;
+}
+.category{
+    margin-bottom: 40px;
+}
+.categoryName {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.picmovie{
+	display: inline-block;
+	padding:20px;
+}
+.movie {
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.movie .poster {
+    width: 180px;
+    height: 230px;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    margin-bottom: 15px;
+}
+
+.poster img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.details {
+    width: 180px;
+    /* margin: 0 auto; */
+}
+.details .yearOfRelease {
+    margin: 5px 0;
+    font-size: 0.8rem;
+}
+
+.details .name{
+    margin: 5px 0;
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.stars .star {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+}
+
+.star-full {
+    background-image: url("../images/star-full.png");
+}
+
+.star-half {
+    background-image: url("../images/star-half.png");
+}
+
+.star-empty {
+    background-image: url("../images/star-empty.png");
+}

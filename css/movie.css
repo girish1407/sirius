@@ -1,152 +1,173 @@
-.logo{
-  width:200px;
+body {
+  font-family: 'Lato', sans-serif;
 }
 
-.fright{
-  float:right;
+a {
+  color: #00B7FF;
 }
-.logo-left{
-width:200px;
-  float:right;
-  padding-top: 12px
-}
-.clearfix{
-  clear:both;
-}
-.icon{
-  width:50px;
 
-}
-body{
+.container {
   background-color: #442D4B;
-  font-family: 'lato', sans-serif;
-  color: white;
-  align-content: center;
-}
-header{
-  padding: 40px;
-  height: 40px;
+  color: #ffffff;
 }
 
-header ul li{
+.fright {
+  float: right;
+}
+
+.fleft {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+  content: '';
+}
+
+header .logo {
+  width: 200px;
+  margin: 16px 0;
+}
+
+header ul {
+  list-style-type: none;
+  padding-top: 16px;
+}
+
+header ul li {
   display: inline-block;
-  font-color: white;
-  padding:10px 15px
+  padding: 10px 15px;
 }
 
-header ul li a{
-text-decoration: none;
-  color: #FFCB59;
-  font-size: 13px;
+header ul li a {
+  color: #ffcb59;
+  text-decoration: none;
+  font-size: .8rem;
 }
 
-
-.form{
-  width: 500px;
-  margin: 0 auto;
-
-}
-.form h2{
-  text-align: center;
-  font-size: 28px;
-  margin-bottom: 20px;
-}
-.form label,.form input{
-display: block;
-
+header, section, footer{
+    padding: 40px;
+    min-height: 40px;
 }
 
-
-.form input,.form textarea,.form select{
-width: 100%;
-  background: #442D4B;
-  border: 1px solid white;
-  margin: 7px 0 15px;
-  color: white;
-  padding:0 15px;
-  font-size: 19px;
-  font-family: inherit;
-}
-.ini{
-  display:inline-block;
-  width: 50%
+.btn-grp {
+    margin-left: 40px;
 }
 
-.form input{
+.btn {
+  width: 30px;
   height: 30px;
-}
-button{
-  margin-left:auto;
-  margin-right:auto;
-  display:block;
-  margin-bottom: 10px
-}
-.divide{
-  display: inline-block;
-  width: 51%;
-  padding-left: 15px;
-  white-space: normal;
-}
-footer{
-  background: black;
-  padding: 10px
+  border: none;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 5px;
 }
 
-
-.language_div{
-  padding-left: 0px;
-
-}
-form{
-  white-space: nowrap;
+footer {
+  bottom: 0;
+  background-color: #000000;
+  padding: 20px 0;
 }
 
-.film{
-  width: 150px;
-  height: 200px;
-  margin-top:10px;
-  margin-left: 10px;
-  margin-bottom: 5px;
-
-}
-.star{
-  width: 10px;
-  height: 10px;
-  margin-left: 10px;
-
-  display:inline-block;
-
+.btn.facebook {
+  background-image: url('../images/facebook.png');
 }
 
-.stars{
-  width: 10px;
-  height: 10px;
-  display:inline-block;
-
-
+.btn.twitter {
+  background-image: url('../images/twitter.png');
 }
 
-.movie-lan{
-
-  margin: 10px;
-}
-.movie-nam{
-  margin: 10px;
-}
-.movie-yr{
-  font-size: 12px;
-  padding-top: 10px;
-  margin: 10px;
-  text-decoration: inherit;
-  font-weight: bold;
-}
-.new{
-display: grid;
+.btn.insta {
+  background-image: url('../images/instagram.png');
 }
 
+footer .logo {
+  width: 200px;
+  margin-right: 40px;
+}
 
+/* ADD MOVIE PAGE */
 
-/*HOME PAGE*/
+.add_movie_form {
+	margin: 20px auto;
+	width: 500px;
+}
+
+.add_movie_form h2{
+	font-size: 1.8rem;
+	text-align: center;
+	margin: 20px 0;
+	font-weight: normal;
+}
+
+.add_movie_form label{
+  font-size: 0.9rem;
+}
+
+.add_movie_form input, .add_movie_form textarea, .add_movie_form select{
+  display: block;
+	width: 100%;
+	background: #442D4B;
+	border: 1px solid white;
+	color: inherit;
+	font-size: 1.2rem;
+	font-family: inherit;
+	padding: 0 5px;
+	margin: 7px 0 15px;
+	box-sizing: border-box;
+}
+
+.add_movie_form input{
+	height: 40px;
+}
+
+.add_movie_form textarea {
+    resize: none;
+}
+
+.add_movie_form .divide {
+	display: inline-block;
+	width: 50%;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.add_movie_form .divide:first-child {
+    padding-right: 10px;
+		padding-left: 0;
+}
+
+.add_movie_form select::-ms-expand {
+    display: none;
+}
+.add_movie_form select{
+	border-radius: 0;
+	outline : none;
+  overflow : hidden;
+  background : url("../images/downarrow.png") no-repeat right;
+	background-position-x: 95%;
+	background-size: 12px;
+	height: 40px;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	    -ms-appearance: none;
+	     -o-appearance: none;
+	        appearance: none;
+}
+
+.add_movie_form button {
+	margin: 0 auto;
+	display: block;
+	height: 40px;
+	width: 100px;
+	color: white;
+	background: orange;
+	border: none;
+	font-size: .9rem;
+	border-radius: 0;
+}
+
+/* HOMEPAGE CSS */
 section{
     padding: 0 40px;
     padding-bottom: 84px;
